@@ -61,6 +61,7 @@ When imlementing new features take in consideration how we intend to implement u
 ### Utility Functions
 
 - `cn()` function in `src/lib/utils.ts` combines clsx and tailwind-merge for className management
+- `mock data` objects available in `src/lib/mock-data.ts`
 
 ## shadcn/ui Integration
 
