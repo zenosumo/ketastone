@@ -41,10 +41,12 @@ When imlementing new features take in consideration how we intend to implement u
 ### Directory Structure
 
 - `src/app/` - Next.js App Router pages and layouts
+- `src/app/(public)` - Public routes accessible without authentication
+- `src/app/(private)` - Private routes requiring authentication
+- `src/app/api` - Api end points
+- `src/app/components` - ShadCN components and custom components
+- `src/app/components/layout` - Components composing the layout of overalla webapp
 - `src/lib/` - Utility functions and shared libraries
-- `@/components` - React components (shadcn/ui components go in `@/components/ui`)
-- `@/lib` - Library utilities
-- `@/hooks` - Custom React hooks
 
 ### Key Configuration
 
@@ -52,6 +54,9 @@ When imlementing new features take in consideration how we intend to implement u
 - **ESLint**: Uses Next.js core-web-vitals and TypeScript presets
 - **Tailwind**: Uses PostCSS 4.0 configuration
 - **ShadCN**: Components.json configured for potential ShadCN components
+- **Storage**: Google Cloud Storage for audio files
+- **Email**: Resend for transactional emails
+- **AI/Chat**: OpenAI integration
 
 ### Utility Functions
 

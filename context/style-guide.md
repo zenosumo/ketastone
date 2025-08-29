@@ -23,9 +23,9 @@
 
 ## 🧩 Components
 
-- **Shape**: Rounded corners (~12px), not fully circular nor sharp — inspired by Apple’s 2023–2024 style
+- **Shape**: Rounded corners, not fully circular nor sharp — inspired by Apple’s 2023–2024 style
 - **Surface**:
-  - Use soft shadows (e.g., `0 2px 6px rgba(0, 0, 0, 0.08)`)
+  - Use soft shadows
   - Maintain visual hierarchy without harsh contrast
 - **Buttons**:
   - Primary: Filled with smooth hover states
